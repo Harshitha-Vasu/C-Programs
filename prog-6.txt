@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d;
+    a+=b;
+    c/=d;
+    
+    printf("Enter number 1:"); scanf("%d",&a);
+    printf("Enter number 2:"); scanf("%d",&b);
+    printf("Enter number 3:"); scanf("%d",&c);
+    printf("Enter number 4:"); scanf("%d",&d);
+    printf("First resultant is:%d",a+b);
+    printf("Second resultant is:%d",c/d);
+    return 0;
+}

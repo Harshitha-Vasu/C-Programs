@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,ret;
+    printf("Enter a number:"); scanf("%d",&a);
+    printf("Enter a number:"); scanf("%d",&b);
+    
+    ret=((a>=b)&&(a==a));
+    printf("return value of the above expression is=%d \n",ret);
+    
+    ret=((a==b)||(a<b));
+    printf("return value of the above expresson is=%d \n", ret);
+    
+    ret=!((a!=b)||(a>b));
+    printf("return value of the above expression is=%d",ret);
+    return 0;
+}
